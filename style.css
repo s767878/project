@@ -1,0 +1,57 @@
+body,html{
+	height: 100%;
+	font-family: Arial,Helvetica, sans-serif;
+
+}
+*{
+	box-sizing: border-box;
+}
+h1{
+	color: white;
+}
+.bg-img {
+	background-image: url(landscape2.jpeg);
+	min-height: 680px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.container{
+	position: absolute;
+	right: 0;
+	margin: 20px;
+	max-width: 300px;
+	padding: 16px;
+	background-color: white;
+}
+input[type=text]{
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	border: none;
+	background: #f0f2f5;
+}
+
+input[type=text]:focus{
+	background-color: #ddd;
+	outline: none;
+}
+
+.btn{
+	background-color: #83eb34;
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.9;
+}
+
+.btn:hover{
+	opacity: 1;
+
+}
+.h1{
+	color: grey;
+}
