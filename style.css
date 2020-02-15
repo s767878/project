@@ -7,8 +7,10 @@ body,html{
 	box-sizing: border-box;
 }
 h1{
-	color: white;
+	color: #212b36;
 }
+
+
 .bg-img {
 	background-image: url(landscape2.jpeg);
 	min-height: 680px;
@@ -51,7 +53,4 @@ input[type=text]:focus{
 .btn:hover{
 	opacity: 1;
 
-}
-.h1{
-	color: grey;
 }
